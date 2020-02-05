@@ -1,6 +1,9 @@
 {
   "name": "@nexus-switchboard/nexus-conn-confluence",
   "version": "0.0.1",
+  "keywords": [
+    "nexus-connection"
+  ],
   "description": "Provides a nexus compatibility layer between a module and a confluence instance.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
