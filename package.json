@@ -22,7 +22,7 @@
     "debug": "^4.1.1",
     "ts-confluence-client": "0.0.19",
     "tslib": "^1.10.0",
-    "@nexus-switchboard/nexus-extend": "^0.4.4"
+    "@nexus-switchboard/nexus-extend": "^0.4"
   },
   "devDependencies": {
     "@types/node": "^12.7.5",
