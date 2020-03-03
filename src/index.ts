@@ -1,5 +1,5 @@
 import {ConfConnectionInfo, Confluence} from "ts-confluence-client";
-import {Connection, ConnectionConfig} from "@nexus-switchboard/nexus-extend";
+import {Connection, ConnectionConfig, GlobalConfig} from "@nexus-switchboard/nexus-extend";
 
 export type ConfluenceConfig = ConfConnectionInfo;
 
@@ -20,6 +20,6 @@ export class ConfluenceConnection extends Connection {
     }
 }
 
-export default function createConnection(cfg: ConnectionConfig): Connection {
-    return new ConfluenceConnection(cfg);
+export default function createConnection(cfg: ConnectionConfig, globalCfg: GlobalConfig): Connection {
+    return new ConfluenceConnection(cfg, globalCfg);
 }
